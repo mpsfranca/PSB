@@ -26,11 +26,11 @@ Este roteiro guiará você através do processo de configuração do ambiente de
 
 1. Abra um terminal e clone o repositório do projeto:
    ```
-   git clone [URL_DO_REPOSITORIO]
-   cd [NOME_DO_DIRETORIO]
+   git clone https://github.com/mpsfranca/PSB
+   cd PSB
    ```
 2. Verifique se o arquivo principal do projeto é `main.asm`.
-3. Localize o arquivo do circuito SimulIDE (`.simu`) no diretório do projeto.
+3. Localize o arquivo do circuito SimulIDE (`.sim1`) no diretório do projeto.
 
 ### Compilação
 
@@ -44,7 +44,7 @@ Este roteiro guiará você através do processo de configuração do ambiente de
 ### Simulação no SimulIDE
 
 1. Abra o SimulIDE a partir do terminal ou menu de aplicativos.
-2. No SimulIDE, vá para `File > Open Circuit` e selecione o arquivo `.simu` do projeto.
+2. No SimulIDE, vá para `File > Open Circuit` e selecione o arquivo `.sim1` do projeto.
 3. Localize o componente do microcontrolador ATmega328P no circuito.
 4. Clique com o botão direito no microcontrolador e selecione "Load firmware".
 5. Navegue até o diretório do projeto e selecione o arquivo `main.hex` gerado na etapa de compilação.
